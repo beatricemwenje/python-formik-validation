@@ -1,11 +1,11 @@
-import './App.css';
-import { SignupForm } from './components/Signup';
+import React from "react";
+import { Signup } from "./components/Signup";
+
 function App() {
   return (
-    <div >
-      <SignupForm/>
+    <div className="App">
+      <Signup />
     </div>
-    
   );
 }
 
